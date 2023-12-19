@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 
+#function to check who is the winner
 def checkwinner():
     if (button1['text']=='0' and button2['text']=='0' and button3['text']=='0' or
         button4['text'] =='0' and button5['text']=='0' and button6['text']=='0' or
@@ -57,8 +58,9 @@ button8.grid(row=3,column=1,ipadx=50,ipady=50)
 
 button9=ttk.Button(root,text="",command=lambda:buttonPressed(9))
 button9.grid(row=3,column=3,ipady=50,ipadx=50)
-
+#player init
 player =1
+#funnction to check button
 def buttonPressed(buttonNumber):
     global player
     if buttonNumber ==1 and player==1:
