@@ -5,7 +5,7 @@ nltk.download('punkt') #installing this specific resource so that NLTK can use i
 
 statiment_words =['what','where','who','when','name','is','do','does','which','are','could','would'
                   ,'should','has','whom','whose',"don't"]
-sentence=input("Enter a Sentence :\n")
+sentence=input("Enter English Sentence Only:\n")
 sentence=sentence.lower()
 sentence =word_tokenize(sentence)
 if any(x in sentence[0]for x in statiment_words):
