@@ -27,8 +27,9 @@ def checkwinner():
              messagebox._show("Winner of the game","Player X is winner")
     
 root = tk.Tk()
-root.geometry('760x450')
-root.title=("Tic Tac Toe Game")
+root.geometry('860x450')
+root.title("Tic Tac Toe Game")
+
 #ROW ONE
 button1=ttk.Button(root,text="",command=lambda:buttonPressed(1))
 button1.grid(row=0,column=0,ipadx=50,ipady=50)
