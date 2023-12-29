@@ -5,6 +5,7 @@ nltk.download('punkt') #installing this specific resource so that NLTK can use i
 
 statiment_words =['what','where','who','when','name','is','do','does','which','are','could','would'
                   ,'should','has','whom','whose',"don't"]
+print("THIS IS THE PROGRAM TO TEST IF SENTENCE IS QUESTION OR NOT")
 sentence=input("Enter English Sentence Only:\n")
 sentence=sentence.lower()
 sentence =word_tokenize(sentence)
