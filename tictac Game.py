@@ -27,7 +27,7 @@ def checkwinner():
              messagebox._show("Winner of the game","Player X is winner")
     
 root = tk.Tk()
-root.geometry('860x450')
+root.geometry('560x450')
 root.title("Tic Tac Toe Game")
 
 #ROW ONE
